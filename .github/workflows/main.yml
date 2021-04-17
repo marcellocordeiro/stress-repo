@@ -25,6 +25,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2.3.4
         with:
-          repository: 'marcellocordeiro/py-test'
-          ref: 5546ca1
-
+          repository: 'soabase/exhibitor'
+          ref: d345d2d
