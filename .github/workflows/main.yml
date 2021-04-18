@@ -2,13 +2,13 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
         with:
-          repository: 'soabase/exhibitor'
+          repository: "soabase/exhibitor"
           ref: d345d2d45c75b0694b562b6c346f8594f3a5d166
       - name: Java tests
         uses: marcellocordeiro/stress-action@main
@@ -28,13 +28,13 @@ jobs:
           test_type: maven
           no_stress_runs: 1
           stress_runs: 0
-          
+
   azure-iot-sdk-java:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
         with:
-          repository: 'Azure/azure-iot-sdk-java'
+          repository: "Azure/azure-iot-sdk-java"
           ref: a9226a5262a8f4cb92ec7fd1535c0e0d3bc7aa03
       - name: Java tests
         uses: marcellocordeiro/stress-action@main
@@ -42,13 +42,13 @@ jobs:
           test_type: maven
           no_stress_runs: 1
           stress_runs: 0
-          
+
   karate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
         with:
-          repository: 'intuit/karate'
+          repository: "intuit/karate"
           ref: 09bc49eb6fcfc029a09dbdb385137ff71985c89b
       - name: Java tests
         uses: marcellocordeiro/stress-action@main
@@ -56,13 +56,13 @@ jobs:
           test_type: maven
           no_stress_runs: 1
           stress_runs: 0
-          
+
   hbase:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
         with:
-          repository: 'apache/hbase'
+          repository: "apache/hbase"
           ref: d50816fe448971b8e586792f0584aaf601e31780
       - name: Java tests
         uses: marcellocordeiro/stress-action@main
@@ -70,13 +70,13 @@ jobs:
           test_type: maven
           no_stress_runs: 1
           stress_runs: 0
-          
+
   flow:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
         with:
-          repository: 'vaadin/flow'
+          repository: "vaadin/flow"
           ref: df7a5f80b8c77f5d1505ecd6aea7e1adf70141bf
       - name: Java tests
         uses: marcellocordeiro/stress-action@main
