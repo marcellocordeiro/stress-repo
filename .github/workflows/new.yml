@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2.3.4
         with:
           repository: "strimzi/strimzi-kafka-bridge"
-          ref: eaf86fb
+          ref: eaf86fbe460226c311a403816eaea86c03a2355f
       - name: Java tests
         uses: marcellocordeiro/stress-action@main
         with:
@@ -31,8 +31,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
         with:
-          repository: "RipMeApp/ripme/"
-          ref: 351b58c
+          repository: "RipMeApp/ripme"
+          ref: 19ea20dcd62d6ea1197073ce9a7236c5c1f47556
       - name: Java tests
         uses: marcellocordeiro/stress-action@main
         with:
