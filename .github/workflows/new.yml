@@ -26,8 +26,6 @@ jobs:
           test_type: maven
           no_stress_runs: 1
           stress_runs: 0
-
-jobs:
   ripme:
     runs-on: ubuntu-latest
     steps:
