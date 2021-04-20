@@ -20,8 +20,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   CorfuDB:
     runs-on: ubuntu-latest
@@ -34,8 +34,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   Chronicle-Queue:
     runs-on: ubuntu-latest
@@ -48,8 +48,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   exhibitor:
     runs-on: ubuntu-latest
@@ -62,8 +62,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   flow:
     runs-on: ubuntu-latest
@@ -76,8 +76,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   hbase:
     runs-on: ubuntu-latest
@@ -90,8 +90,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   karate:
     runs-on: ubuntu-latest
@@ -104,8 +104,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   killbill:
     runs-on: ubuntu-latest
@@ -118,8 +118,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   mockserver:
     runs-on: ubuntu-latest
@@ -132,8 +132,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   ozone:
     runs-on: ubuntu-latest
@@ -146,8 +146,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   ripme:
     runs-on: ubuntu-latest
@@ -160,8 +160,8 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
 
   strimzi-kafka-bridge:
     runs-on: ubuntu-latest
@@ -174,5 +174,5 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: maven
-          no_stress_runs: 0
-          stress_runs: 0
+          no_stress_runs: 1
+          stress_runs: 2
