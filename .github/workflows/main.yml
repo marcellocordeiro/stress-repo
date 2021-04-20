@@ -1,12 +1,6 @@
 name: Run Skaker in all testing repos
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
-  workflow_dispatch:
+on: [workflow_dispatch]
 
 jobs:
   azure-iot-sdk-java:
