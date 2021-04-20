@@ -15,4 +15,4 @@ jobs:
           java-version: "8"
           distribution: "adopt"
       - name: Run the Maven verify phase
-        run: mvn --batch-mode --update-snapshots --fail-never --quiet -Dmaven.javadoc.skip=true -Phdds -Pdist -Dtar -DskipShade verify
+        run: mvn -B -U -fn -q -Dmaven.javadoc.skip=true clean test
