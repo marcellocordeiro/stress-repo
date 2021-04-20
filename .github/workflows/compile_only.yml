@@ -1,4 +1,4 @@
-name: Run Skaker in all testing repos
+name: Compile only
 
 on: [workflow_dispatch]
 
