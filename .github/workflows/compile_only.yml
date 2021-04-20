@@ -12,7 +12,7 @@ jobs:
           ref: a9226a5262a8f4cb92ec7fd1535c0e0d3bc7aa03
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -26,7 +26,7 @@ jobs:
           ref: b99ecfffd4f4b478f2423cc0470c3c2edf8c2cc8
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -40,7 +40,7 @@ jobs:
           ref: bec195b43e9115c7778d7458d8301ec1a5a4fbcb
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -54,7 +54,7 @@ jobs:
           ref: d345d2d45c75b0694b562b6c346f8594f3a5d166
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -68,7 +68,7 @@ jobs:
           ref: df7a5f80b8c77f5d1505ecd6aea7e1adf70141bf
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -82,7 +82,7 @@ jobs:
           ref: d50816fe448971b8e586792f0584aaf601e31780
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -96,7 +96,7 @@ jobs:
           ref: 09bc49eb6fcfc029a09dbdb385137ff71985c89b
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -110,7 +110,7 @@ jobs:
           ref: "0.22.21"
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -124,7 +124,7 @@ jobs:
           ref: b1093ef54a6c3c880076f71a815bf0e204bc27f2
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -138,7 +138,7 @@ jobs:
           ref: dfd2aaf7fff4815e906e7201cee1739ad9776d97
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -152,7 +152,7 @@ jobs:
           ref: 19ea20dcd62d6ea1197073ce9a7236c5c1f47556
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
@@ -166,7 +166,7 @@ jobs:
           ref: eaf86fbe460226c311a403816eaea86c03a2355f
       - uses: actions/setup-java@v2
         with:
-          java-version: "11"
+          java-version: "8"
           distribution: "zulu"
       - name: Run the Maven verify phase
         run: mvn -B -U -q -Dmaven.javadoc.skip=true -DskipTests clean install
