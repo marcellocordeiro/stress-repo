@@ -85,7 +85,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 1
 
   karate:
     runs-on: ubuntu-latest
