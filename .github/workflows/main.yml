@@ -15,7 +15,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   CorfuDB:
     runs-on: ubuntu-latest
@@ -29,7 +29,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   Chronicle-Queue:
     runs-on: ubuntu-latest
@@ -43,7 +43,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   exhibitor:
     runs-on: ubuntu-latest
@@ -57,7 +57,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   flow:
     runs-on: ubuntu-latest
@@ -71,7 +71,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   hbase:
     runs-on: ubuntu-latest
@@ -99,7 +99,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   killbill:
     runs-on: ubuntu-latest
@@ -113,7 +113,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   mockserver:
     runs-on: ubuntu-latest
@@ -127,7 +127,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   ozone:
     runs-on: ubuntu-latest
@@ -141,7 +141,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   ripme:
     runs-on: ubuntu-latest
@@ -155,7 +155,7 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
 
   strimzi-kafka-bridge:
     runs-on: ubuntu-latest
@@ -169,4 +169,4 @@ jobs:
         with:
           test_type: maven
           no_stress_runs: 1
-          stress_runs: 3
+          stress_runs: 4
