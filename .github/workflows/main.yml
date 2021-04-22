@@ -11,7 +11,7 @@ jobs:
           repository: Azure/azure-iot-sdk-java
           ref: a9226a5262a8f4cb92ec7fd1535c0e0d3bc7aa03
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -25,7 +25,7 @@ jobs:
           repository: CorfuDB/CorfuDB
           ref: b99ecfffd4f4b478f2423cc0470c3c2edf8c2cc8
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -39,7 +39,7 @@ jobs:
           repository: OpenHFT/Chronicle-Queue
           ref: bec195b43e9115c7778d7458d8301ec1a5a4fbcb
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -53,7 +53,7 @@ jobs:
           repository: soabase/exhibitor
           ref: d345d2d45c75b0694b562b6c346f8594f3a5d166
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -67,7 +67,7 @@ jobs:
           repository: vaadin/flow
           ref: "6.0.6"
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -81,7 +81,7 @@ jobs:
           repository: apache/hbase
           ref: d50816fe448971b8e586792f0584aaf601e31780
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -95,7 +95,7 @@ jobs:
           repository: intuit/karate
           ref: 09bc49eb6fcfc029a09dbdb385137ff71985c89b
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -109,7 +109,7 @@ jobs:
           repository: killbill/killbill
           ref: killbill-0.22.21
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -123,7 +123,7 @@ jobs:
           repository: mock-server/mockserver
           ref: b1093ef54a6c3c880076f71a815bf0e204bc27f2
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -137,7 +137,7 @@ jobs:
           repository: apache/ozone
           ref: dfd2aaf7fff4815e906e7201cee1739ad9776d97
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -151,7 +151,7 @@ jobs:
           repository: RipMeApp/ripme
           ref: 19ea20dcd62d6ea1197073ce9a7236c5c1f47556
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
@@ -165,7 +165,7 @@ jobs:
           repository: strimzi/strimzi-kafka-bridge
           ref: eaf86fbe460226c311a403816eaea86c03a2355f
       - name: Shaker
-        uses: marcellocordeiro/stress-action@main
+        uses: marcellocordeiro/shaker-action@main
         with:
           testing_tool: maven
           no_stress_runs: 1
