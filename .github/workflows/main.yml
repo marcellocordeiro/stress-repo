@@ -14,8 +14,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   CorfuDB:
     runs-on: ubuntu-latest
@@ -28,8 +28,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   Chronicle-Queue:
     runs-on: ubuntu-latest
@@ -42,8 +42,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   exhibitor:
     runs-on: ubuntu-latest
@@ -56,8 +56,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   flow:
     runs-on: ubuntu-latest
@@ -70,8 +70,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   hbase:
     runs-on: ubuntu-latest
@@ -84,8 +84,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 1
+          no_stress_runs: 4
+          stress_runs: 0
 
   karate:
     runs-on: ubuntu-latest
@@ -98,8 +98,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   killbill:
     runs-on: ubuntu-latest
@@ -112,8 +112,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   mockserver:
     runs-on: ubuntu-latest
@@ -126,8 +126,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   ozone:
     runs-on: ubuntu-latest
@@ -140,8 +140,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   ripme:
     runs-on: ubuntu-latest
@@ -154,8 +154,8 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
 
   strimzi-kafka-bridge:
     runs-on: ubuntu-latest
@@ -168,5 +168,5 @@ jobs:
         uses: STAR-RG/shaker-action@main
         with:
           testing_tool: maven
-          no_stress_runs: 1
-          stress_runs: 4
+          no_stress_runs: 4
+          stress_runs: 0
